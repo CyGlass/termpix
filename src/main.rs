@@ -6,7 +6,7 @@ extern crate terminal_size;
 extern crate termpix;
 
 use std::io::Write;
-image::GenericImageView;
+use image::GenericImageView;
 
 use docopt::Docopt;
 use image::GenericImage;
